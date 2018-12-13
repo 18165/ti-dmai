@@ -47,7 +47,7 @@
 
 #if defined(CONFIG_VIDEO_OMAP34XX_ISP_RESIZER)
 #include <linux/omap_resizer.h>
-#include <linux/videodev.h>
+#include <linux/videodev2.h>
 #endif
 
 #define MODULE_NAME     "Framecopy"

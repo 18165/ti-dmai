@@ -46,7 +46,7 @@
 /* Define CONFIG_VIDEO_OMAP34XX_ISP_RESIZER to enable resizer support */
 #if defined(CONFIG_VIDEO_OMAP34XX_ISP_RESIZER)
 #include <linux/omap_resizer.h>
-#include <linux/videodev.h>
+#include <linux/videodev2.h>
 #endif /* end CONFIG_VIDEO_OMAP34XX_ISP_RESIZER */
 
 /*
