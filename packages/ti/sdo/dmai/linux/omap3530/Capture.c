@@ -40,7 +40,6 @@
 #include <sys/mman.h>
 #include <sys/ioctl.h>
 #include <asm/types.h>
-#include <linux/videodev.h>
 #include <linux/videodev2.h>
 
 #include <xdc/std.h>
