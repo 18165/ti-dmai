@@ -89,6 +89,12 @@
 
 #define IMG_WIDTH_VGA		640
 #define IMG_HEIGHT_VGA		480
+#define MEDIA_ENTITY_ID_FLAG_NEXT      (1 << 31)
+#define MEDIA_PAD_FLAG_INPUT           (1 << 0)
+#define MEDIA_PAD_FLAG_OUTPUT          (1 << 1)
+#define MEDIA_LINK_FLAG_ENABLED        (1 << 0)
+#define MEDIA_LINK_FLAG_IMMUTABLE      (1 << 1)
+
 
 
 
